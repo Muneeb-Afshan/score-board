@@ -1,0 +1,54 @@
+/* .content{
+    text-align:center;
+    margin: 25% 30% 0 35%;
+} */
+
+html{
+    height:100%;
+}
+.content{
+    position:absolute;
+    height: 890px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h3{
+    color:#fee112;
+}
+
+.green{
+    color: green;
+}
+
+.table1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+table{
+    position: relative;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    border: 2px solid green;
+    width: fit-content;
+    padding:2px;
+    margin: 10px 10px 0 0;
+}
+
+tr td{
+    border: 2px solid green;
+    font-size:30px;
+
+
+}
